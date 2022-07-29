@@ -1,13 +1,22 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .overlay{
     filter: brightness(50%);
 }
-/* .carousel-caption h5{
+.carousel-caption h5{
      font-size: 3rem;
      font-weight: 700;
-} */
+}
 .white-text{
     color: white;
 }
 .fa-brands{
     color: white;
+}
+.fa-solid{
+    color: #fcca03;
+}
+.fa-solid.un{
+    color: gray;
 }
