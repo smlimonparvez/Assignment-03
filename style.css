@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 .overlay{
     filter: brightness(50%);
@@ -19,4 +20,29 @@ body{
 }
 .fa-solid.un{
     color: gray;
+}
+/************************************************ for responsivness **************************************/
+@media only screen and (max-width: 576px) {
+    .carousel-caption h5{
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding-top: 35px;
+    }
+    .carousel-caption p{
+        font-size: .7rem;
+        line-height: .9rem;
+    }
+    .btn-1{
+        padding: .5rem;
+    }
+    .vertical-align{
+        flex-direction: column;
+    }
+    .img{
+        margin-bottom: 20px;
+        width: 100vh;
+    }
+    .price{
+        margin-bottom: 1.5rem;
+    }
 }
